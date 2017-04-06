@@ -111,7 +111,6 @@
     this.trail = null
     this.step = 1
     this.velocity = { x: 1, y: 0 }
-    this.previousMove = { x: 1, y: 0 }
   }
 
   Player.prototype = {
