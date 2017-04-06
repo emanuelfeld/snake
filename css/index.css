@@ -1,0 +1,64 @@
+body {
+    background-color: cadetblue;
+    font-family: VT323;
+}
+
+canvas {
+    background-color: white;
+    margin-bottom: 8px;
+    border: 10px solid #CCB114;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+#game-title {
+    margin: 20px 0px 10px 0px;
+    font-size: 38px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.game-over {
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+}
+
+.game-restart {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+
+#scores-title {
+    font-size: 25px;        
+}
+
+#scores-list {
+    font-size: 20px;
+}
+
+#current-score {
+    font-size: 30px;
+}
+
+.controls {
+    margin-bottom: 45px;
+}
+
+.controls span {
+    border: 2px solid white;
+    padding: 4px;
+    margin: 4px;
+}
+
+.controls span:hover {
+    cursor: pointer;
+}
